@@ -4,7 +4,6 @@ while my_deque:
     a = my_deque.popleft()
     print(a)
     a += 5
-    
     print(a)
     my_deque.appendleft(a)
     a = my_deque.popleft()
