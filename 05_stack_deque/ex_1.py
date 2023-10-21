@@ -1,6 +1,6 @@
 # 1, 2, 3, 4, 5, 6, 7, 8, 9
 #6
-print(*input().split(", ")[::-1])
+# print(*input().split(", ")[::-1])
 
 
 #5
@@ -14,8 +14,8 @@ print(*input().split(", ")[::-1])
 
 
 # 3
-text = list(map(str, input().split(', ')))
-print(*text[::-1])
+# text = list(map(str, input().split(', ')))
+# print(*text[::-1])
 
 
 #2
