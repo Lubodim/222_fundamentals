@@ -1,4 +1,5 @@
 client_queue = []
+client = ""
 
 while True:
     client = input("Entre a name: ")
@@ -11,5 +12,3 @@ while True:
         break
 
     client_queue.append(client)
-
-print(f"last {client_queue}")
