@@ -8,14 +8,15 @@
 # print(' '.join(str(t) for t in text[::-1]))
 
 #4
-# txt = input().split(',')
-# text = [int(t) for t in txt if int(t) % 2 == 0]
+# txt = input().split(', ')
+# text = [int(t) for t in txt[::-1] if int(t) % 2 == 0]
 # print(*text)
 
 
 # 3
-# text = list(map(str, input().split(', ')))
+# text = list(map(int, input().split(', ')))
 # print(*text[::-1])
+
 
 
 #2
@@ -25,6 +26,7 @@
 
 #1
 # text = input().split(", ")
+# print(text)
 # len_test = len(text)
 # for _ in range(len_test):
 #     print(text.pop(), end=" ")
